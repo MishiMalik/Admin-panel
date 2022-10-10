@@ -1,18 +1,20 @@
-.heading-row{
+.heading-row {
     box-shadow: 1px 1px 4px #9aa0b9;
     background-color: white;
     padding: 5px 20px;
     border-top: 1px solid var(--gray-light);
 }
-.p-20{
+
+.p-20 {
     padding: 20px;
 }
+
 /* --------------------------------------------
 buttons
 --------------------------------------------------- */
-.panel-button{
+.panel-button {
     color: #0ab39c;
-    background-color: rgba(10,179,156,.1);
+    background-color: rgba(10, 179, 156, .1);
     border: none;
     padding: 8px 15px;
     min-width: 140px;
@@ -20,62 +22,71 @@ buttons
     font-weight: 500;
     border-radius: 3px;
 }
-.panel-button:hover{
+
+.panel-button:hover {
     background-color: #0ab39c;
     color: white;
 }
-.calendar{
+
+.calendar {
     min-width: 140px;
 }
 
 .calendar::-webkit-inner-spin-button,
 .calendar::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
+    display: none;
+    -webkit-appearance: none;
 }
-.calendar:focus{
-outline: none !important;
-box-shadow: none !important;
+
+.calendar:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
+
 /* -------------------------------------------
 cards
 --------------------------------------------- */
-.panel-card{
+.panel-card {
     background-color: white;
     border-radius: 3px;
-    padding:15px 16px;
+    padding: 15px 16px;
     box-shadow: 0 1px 2px rgb(56 65 74 / 15%);
 }
-.detail{
+
+.detail {
     text-decoration: underline !important;
 }
-.box{
+
+.box {
     height: 40px;
     width: 40px;
-    border-radius:6px;
+    border-radius: 6px;
     font-size: 18px;
 }
-.green-box{
-   
+
+.green-box {
+
     background-color: var(--green-light);
-    color: var(--green); 
+    color: var(--green);
 }
 
-.blue-box{
-   
+.blue-box {
+
     background-color: var(--blue-light);
     color: var(--blue);
-    
+
 }
-.orange-box{
-   
+
+.orange-box {
+
     background-color: var(--orange-light);
     color: var(--orange);
-    
+
 }
-.primary-box{
-   
+
+.primary-box {
+
     background-color: var(--primary-light);
     color: var(--primary);
-    
+
 }
