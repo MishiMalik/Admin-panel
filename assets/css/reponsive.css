@@ -20,4 +20,7 @@
     .p-20{
         padding: 22px;
     }
+    .calendar{
+        min-width: 140px !important;
+    }
 }
