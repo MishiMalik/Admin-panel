@@ -21,6 +21,6 @@
         padding: 22px;
     }
     .calendar{
-        min-width: 140px !important;
+        min-width: 100px !important;
     }
 }
