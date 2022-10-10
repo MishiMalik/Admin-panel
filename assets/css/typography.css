@@ -92,33 +92,3 @@
 .text-green{
     color: var(--green);
 }
-.box{
-    height: 40px;
-    width: 40px;
-    border-radius:6px;
-    font-size: 18px;
-}
-.green-box{
-   
-    background-color: var(--green-light);
-    color: var(--green); 
-}
-
-.blue-box{
-   
-    background-color: var(--blue-light);
-    color: var(--blue);
-    
-}
-.orange-box{
-   
-    background-color: var(--orange-light);
-    color: var(--orange);
-    
-}
-.primary-box{
-   
-    background-color: var(--primary-light);
-    color: var(--primary);
-    
-}

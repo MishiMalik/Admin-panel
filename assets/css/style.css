@@ -24,13 +24,19 @@ buttons
     background-color: #0ab39c;
     color: white;
 }
+.calendar{
+    min-width: 140px;
+}
 
-.calender::-webkit-inner-spin-button,
-.calender::-webkit-calendar-picker-indicator {
+.calendar::-webkit-inner-spin-button,
+.calendar::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
-
+.calendar:focus{
+outline: none !important;
+box-shadow: none !important;
+}
 /* -------------------------------------------
 cards
 --------------------------------------------- */
@@ -42,4 +48,34 @@ cards
 }
 .detail{
     text-decoration: underline !important;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    border-radius:6px;
+    font-size: 18px;
+}
+.green-box{
+   
+    background-color: var(--green-light);
+    color: var(--green); 
+}
+
+.blue-box{
+   
+    background-color: var(--blue-light);
+    color: var(--blue);
+    
+}
+.orange-box{
+   
+    background-color: var(--orange-light);
+    color: var(--orange);
+    
+}
+.primary-box{
+   
+    background-color: var(--primary-light);
+    color: var(--primary);
+    
 }
