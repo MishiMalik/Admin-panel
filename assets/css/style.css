@@ -1,0 +1,45 @@
+.heading-row{
+    box-shadow: 1px 1px 4px #9aa0b9;
+    background-color: white;
+    padding: 5px 20px;
+    border-top: 1px solid var(--gray-light);
+}
+.p-20{
+    padding: 20px;
+}
+/* --------------------------------------------
+buttons
+--------------------------------------------------- */
+.panel-button{
+    color: #0ab39c;
+    background-color: rgba(10,179,156,.1);
+    border: none;
+    padding: 8px 15px;
+    min-width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.panel-button:hover{
+    background-color: #0ab39c;
+    color: white;
+}
+
+.calender::-webkit-inner-spin-button,
+.calender::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* -------------------------------------------
+cards
+--------------------------------------------- */
+.panel-card{
+    background-color: white;
+    border-radius: 3px;
+    padding:15px 16px;
+    box-shadow: 0 1px 2px rgb(56 65 74 / 15%);
+}
+.detail{
+    text-decoration: underline !important;
+}
