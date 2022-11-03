@@ -27,9 +27,27 @@ buttons
     background-color: #0ab39c;
     color: white;
 }
+.panel-button2 {
+    color: var(--primary);
+    background-color: var(--primary-light);
+    border: none;
+    padding: 8px 15px;
+    min-width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+}
 
+.panel-button2:hover {
+    background-color: var(--primary);
+    color: white;
+}
+.input-group{
+    width: fit-content;
+}
 .calendar {
     min-width: 140px;
+    max-width: 140px;
 }
 
 .calendar::-webkit-inner-spin-button,
@@ -42,7 +60,11 @@ buttons
     outline: none !important;
     box-shadow: none !important;
 }
-
+.input-group-text{
+    border-radius: 3px !important;
+    height: 34px;
+    
+}
 /* -------------------------------------------
 cards
 --------------------------------------------- */
@@ -89,4 +111,169 @@ cards
     background-color: var(--primary-light);
     color: var(--primary);
 
+}
+
+/* ----------------------------
+mneu btn
+------------------------------------*/
+.menu-btn .btn{
+    height: 37px;
+    width: 37px;
+    border-radius: 3px;
+    background-color: var(--primary) !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------------
+sign in
+---------------------------------- */
+.sign-row {
+    height: 100vh;
+}
+
+.sign-form {
+    border: 1px solid #c5c5c5;
+    padding: 30px;
+    border-radius: 4px;
+    width: 478px;
+    background-color: white;
+
+}
+
+.continue-msg {
+    color: #06889b;
+    background-color: #e1f8fb;
+    position: relative;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #b5edf5;
+    border-radius: 4px;
+}
+
+.sign-input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    border: 1px solid #c5c5c5 !important;
+    border-radius: 8px;
+    height: 45px;
+    padding: 0px 15px;
+
+}
+
+.sign-input::placeholder {
+    color: #a6a0a0;
+}
+
+
+.sign-form h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #364a63;
+    letter-spacing: -0.02em;
+}
+
+.sign-form p {
+    color: #526484;
+}
+
+.sign-form label {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: #344357 !important;
+}
+
+.sign-form input {
+    display: block;
+    width: 100%;
+    padding: 0.5375rem 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #3c4d62;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dbdfea;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.sign-form button {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.sign-form button {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0.5375rem 1rem;
+    border-radius: 4px;
+    color: #fff;
+    background-color: var(--primary);
+    box-shadow: none;
+    border: none;
+}
+
+.sign-form button:hover {
+    background-color: var(--primary);
+}
+
+a {
+    text-decoration: none;
+}
+.password{
+    position: relative;
+}
+#togglePassword{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: var(--primary);
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+/* ----------------------
+form
+-------------------------------- */
+.form-control{
+border-radius: 3px;
+}
+input{
+    border-radius: 3px;
+}
+.text-area{
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+}
+.form-select {
+    border-radius: 3px !important;
+}
+.form-select:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--primary) !important;
+}
+input:focus{
+    border: 1px solid var(--primary) !important;
+}
+.text-area:focus{
+    border: 1px solid var(--primary) !important;
+
+}
+.bi-info-circle{
+    color: var(--primary);
 }
