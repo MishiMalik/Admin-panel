@@ -28,10 +28,10 @@
 }
 
 .sidebar {
-    color: #b3b8d4;
+    /* color: #b3b8d4; */
     overflow-x: hidden !important;
     position: relative;
-    background-color: #000;
+    background-color: white;
 }
 
 .sidebar .image-wrapper {
@@ -67,8 +67,8 @@
 }
 
 .sidebar .sidebar-layout .sidebar-header {
-    height: 64px;
-    min-height: 64px;
+    height: 70px;
+    min-height: 70px;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -140,7 +140,9 @@
     align-items: center;
     height: 50px;
     padding: 0 20px;
-    color: var(--light-blue);
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
 }
 
 .layout .sidebar .menu .menu-item a .menu-icon {
@@ -154,6 +156,7 @@
     margin-right: 10px;
     border-radius: 2px;
     transition: color 0.3s;
+    color: #051a5f;
 }
 
 .layout .sidebar .menu .menu-item a .menu-icon i {
@@ -162,13 +165,14 @@
 }
 
 .layout .sidebar .menu .menu-item a .menu-title {
-    font-size: 0.9rem;
+    font-size: 16px !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     flex-grow: 1;
     transition: color 0.3s;
-    font-family: 700;
+    font-weight: 600 !important;
+    color: #051a5f;
 }
 
 .layout .sidebar .menu .menu-item a .menu-prefix,
@@ -180,11 +184,11 @@
 }
 
 .layout .sidebar .menu .menu-item a:hover .menu-title {
-    color: var(--dark-blue);
+    color: white;
 }
 
 .layout .sidebar .menu .menu-item a:hover .menu-icon {
-    color: var(--dark-blue);
+    color: white;
 }
 
 .layout .sidebar .menu .menu-item a:hover .menu-icon i {
@@ -370,10 +374,7 @@ a {
     font-weight: 700 !important;
 }
 
-.sidebar.collapsed .menu-heading {
-    color: transparent !important;
-    border-top: 1px solid rgba(83, 93, 125, 0.5)
-}
+
 
 .user-icon {
     height: 30px;
@@ -441,12 +442,12 @@ a {
 }
 
 .logo {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .layout .sidebar {
-    width: 220px;
-    min-width: 220px;
+    width: 240px;
+    min-width: 240px;
 }
 
 .layout.fixed-header.fixed-sidebar .header {
@@ -454,7 +455,7 @@ a {
 }
 
 .menu-item a:hover {
-    background-color: var(--secondary) !important;
+    background-color:#051a5f !important;
 }
 
 
@@ -509,4 +510,13 @@ a {
 
 .text-white {
     color: white;
+}
+.sidebar.collapsed .menu-heading {
+    color:transparent !important;
+    border-top: 1px solid rgba(83, 93, 125, 0.5)
+}
+.sidebar .menu-heading {
+    color:#051a5f !important;
+    font-weight:700;
+    font-size: 16px;
 }
