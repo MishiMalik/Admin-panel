@@ -435,3 +435,41 @@ table.dataTable tbody th, table.dataTable tbody td{
 thead{
     background-color: #7367f0;
 }
+.total-card{
+   
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.total-card:hover{
+    transform: translateY(-3px);
+}
+.total-card i{
+    font-size: 40px;
+}
+.total-card h3{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: end;
+    white-space: nowrap;
+}
+.total-card h1{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.total-card1{
+    background-color: #1e9ff2 !important;
+}
+.total-card2{
+background-color: #673AB7 !important;
+}
+.total-card3{
+background-color: #007bff;
+}
+.total-card4{
+background-color: #10375c !important;
+}
