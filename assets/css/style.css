@@ -343,7 +343,7 @@ div.dataTables_wrapper {
 .products-table-head{
     font-size: 16px;
     font-weight: 600 !important;
-    color: black !important;
+    color: white;
 }
 .status-green{
     color: rgb(16, 138, 16);
@@ -377,6 +377,9 @@ div.dataTables_wrapper {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+table tbody th{
+    color: white !important;
 }
 table.dataTable tbody th, table.dataTable tbody td{
     padding: 4px 5px !important;
@@ -428,4 +431,7 @@ table.dataTable tbody th, table.dataTable tbody td{
     @media only screen and (max-width:1024px){
         width: 900px !important; 
     }
+}
+thead{
+    background-color: #7367f0;
 }
